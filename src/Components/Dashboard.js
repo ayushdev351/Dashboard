@@ -16,7 +16,25 @@ function Dashboard() {
         </button>
       </div>
       <div className="Main">
-        <div className="mainTop"></div>
+        <div className="mainTop">
+          <i class="fa-sharp fa-solid fa-circle-check statsIcons"></i>
+          <span className="iconName">Basic Info</span>
+          <i class="fa-solid fa-arrow-right statsIcons"></i>
+          <i class="fa-sharp fa-solid fa-circle-check statsIcons"></i>
+          <span className="iconName">Design Style</span>
+          <i class="fa-solid fa-arrow-right statsIcons"></i>
+          <i class="fa-sharp fa-solid fa-circle-check statsIcons"></i>
+          <span className="iconName">Quiz Output</span>
+          <i class="fa-solid fa-arrow-right statsIcons"></i>
+          <i class="fa-sharp fa-solid fa-circle-check statsIcons"></i>
+          <span className="iconName">Space</span>
+          <i class="fa-solid fa-arrow-right statsIcons"></i>
+          <i class="fa-solid fa-circle statsIcons"></i>
+          <span className="iconName">Cost</span>
+          <i class="fa-solid fa-arrow-right statsIcons"></i>
+          <i class="fa-solid fa-circle statsIcons"></i>
+          <span className="iconName">Information</span>
+        </div>
         <div className="mainStats">
           <div className="mainStatsLeft">
             <div className="configure">
