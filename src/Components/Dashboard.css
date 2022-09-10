@@ -1,0 +1,54 @@
+.Dashboard {
+  background-color: white;
+  flex: 0.96;
+  width: 100%;
+}
+
+.Top {
+  background-color: rgb(223, 219, 219);
+  height: 5%;
+}
+
+.Mid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  height: 5%;
+  margin: 15px 20px;
+}
+
+.midProjectName {
+  width: 25%;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.midNewProject {
+  width: 20%;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: rgb(99, 230, 216);
+  text-align: center;
+}
+
+.Main {
+  background-color: white;
+  height: 75%;
+  margin: 20px 20px;
+  border: solid grey 1px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.mainLeft {
+  background-color: grey;
+  border-radius: 20px;
+  flex: 0.5;
+}
+
+.mainRight {
+  flex: 0.5;
+}
