@@ -1,5 +1,7 @@
 import "./Dashboard.css";
 
+import SpaceCard from "./SpaceCard";
+
 function Dashboard() {
   return (
     <div className="Dashboard">
@@ -9,8 +11,28 @@ function Dashboard() {
         <div className="midNewProject">Hello2</div>
       </div>
       <div className="Main">
-        <div className="mainLeft"></div>
-        <div className="mainRight"></div>
+        <div className="mainTop"></div>
+        <div className="mainStats">
+          <div className="mainStatsLeft"></div>
+          <div className="mainStatsRight">
+            <SpaceCard />
+            <SpaceCard />
+            <SpaceCard />
+            <SpaceCard />
+            <SpaceCard />
+            <SpaceCard />
+            <SpaceCard />
+            <SpaceCard />
+            <SpaceCard />
+            <SpaceCard />
+            <SpaceCard />
+            <SpaceCard />
+            <SpaceCard />
+            <SpaceCard />
+            <SpaceCard />
+            <SpaceCard />
+          </div>
+        </div>
       </div>
     </div>
   );
