@@ -12,6 +12,7 @@
   font-size: 25px;
   font-weight: bolder;
   color: green;
+  cursor: pointer;
 }
 
 .iconContainer {
@@ -22,4 +23,5 @@
 
 .icon {
   margin: 20px 0;
+  cursor: pointer;
 }

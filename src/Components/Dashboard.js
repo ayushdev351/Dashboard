@@ -18,7 +18,20 @@ function Dashboard() {
       <div className="Main">
         <div className="mainTop"></div>
         <div className="mainStats">
-          <div className="mainStatsLeft"></div>
+          <div className="mainStatsLeft">
+            <div className="configure">
+              <h4 className="leftHead">Configure your Office</h4>
+              <p className="leftDesc">
+                Below is given the configuration of your office
+              </p>
+              <div className="leftStats">
+                <p className="totalArea">Total Area : 3000</p>
+                <p className="available">3200</p>
+              </div>
+              <div className="comment">You have some space still left.</div>
+            </div>
+            <div className="pieChart"></div>
+          </div>
           <div className="mainStatsRight">
             <SpaceCard
               name="Cubicle/L-Type"

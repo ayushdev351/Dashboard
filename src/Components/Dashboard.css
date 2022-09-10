@@ -96,8 +96,53 @@
 }
 
 .mainStatsLeft {
-  border-right: 1px grey solid;
+  border-right: 1px rgb(211, 210, 210) solid;
   flex: 0.5;
+  display: flex;
+  flex-direction: column;
+}
+
+.configure {
+  flex: 0.4;
+  margin: 15px;
+  border: solid 0.5px rgb(211, 210, 210);
+  border-radius: 5px;
+  text-align: left;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.leftStats {
+  display: flex;
+  height: 50%;
+  align-items: center;
+  text-align: center;
+}
+
+.totalArea {
+  flex: 0.5;
+  font-size: 20px;
+  border-right: solid 0.5px grey;
+}
+
+.available {
+  flex: 0.5;
+  font-size: 20px;
+  color: green;
+}
+
+.comment {
+  background-color: green;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;
+  height: 10%;
+}
+
+.pieChart {
+  flex: 0.6;
 }
 
 .mainStatsRight {
