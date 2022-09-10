@@ -5,10 +5,15 @@ import SpaceCard from "./SpaceCard";
 function Dashboard() {
   return (
     <div className="Dashboard">
-      <div className="Top"></div>
+      <div className="Top">{/* <p className="topProject">Project</p> */}</div>
       <div className="Mid">
-        <div className="midProjectName">Hello</div>
-        <button className="midNewProject">Start New project</button>
+        <div className="midProject">
+          <p className="midProjectName">Project Name</p>
+          <p className="midProjectAdd">233456 New Delhi Dwarka</p>
+        </div>
+        <button className="midNewProject" onClick="">
+          Start New project
+        </button>
       </div>
       <div className="Main">
         <div className="mainTop"></div>
@@ -74,7 +79,9 @@ function Dashboard() {
         </div>
       </div>
       <div className="bottom">
-        <button className="proceedButton">Proceed</button>
+        <button className="proceedButton" onClick="">
+          Proceed
+        </button>
       </div>
     </div>
   );

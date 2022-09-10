@@ -10,7 +10,20 @@
   background-color: rgb(223, 219, 219);
   flex: 0.08;
   min-height: 10px;
+  text-align: left;
 }
+
+/* .topProject {
+  margin-top: 1.6%;
+  margin-left: 20px;
+  padding: 5px;
+  width: 10%;
+  background-color: white;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  font-size: 15px;
+} */
 
 .Mid {
   display: flex;
@@ -22,19 +35,31 @@
   margin: 15px 20px;
 }
 
-.midProjectName {
+.midProject {
   cursor: pointer;
-  width: 25%;
-  padding: 5px;
+  width: 20%;
+  padding: 5px 15px;
   border-radius: 5px;
   background-color: white;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  text-align: left;
+}
+
+.midProjectName {
+  font-weight: bold;
+  font-size: 13px;
+  margin: 1px;
+}
+
+.midProjectAdd {
+  color: rgba(89, 167, 150, 0.802);
 }
 
 .midNewProject,
 .proceedButton {
   cursor: pointer;
-  width: 20%;
+  width: 15%;
   padding: 8px 4px;
   border-radius: 5px;
   background-color: rgb(99, 230, 216);
